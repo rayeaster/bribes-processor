@@ -1,9 +1,7 @@
 import brownie
 from brownie import *
 
-import sys
-sys.path.append("C:\\ray\\code\\badgerdao-fair-selling-processor\\scripts")
-from send_order import get_cowswap_order
+from scripts.send_order import get_cowswap_order
 
 """
   sellBribeForWeth

@@ -3,9 +3,7 @@ import brownie
 from brownie import *
 import pytest
 
-import sys
-sys.path.append("C:\\ray\\code\\badgerdao-fair-selling-processor\\scripts")
-from send_order import get_cowswap_order
+from scripts.send_order import get_cowswap_order
 
 LIVE_PROCESSOR = "0x8abd28e4d69bd3953b96dd9ed63533765adb9965"
 
